@@ -197,17 +197,22 @@ cite{
   width: 3em;
   display: inline-block;
   margin: 0 30px;
+  align-self: flex-start;
 }
 
 .section-2 h2{
   font-family: "Roboto Mono";
   font-size: 2.1em;
-  padding-bottom: 1.7em;
+  padding-bottom: .8em;
 }
 
 .article-container{
   display: inline-block;
   width: 70%;
+}
+
+.section-2 article{
+  display: flex;
 }
 
 
