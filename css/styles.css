@@ -1,0 +1,237 @@
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.display-flex{
+  display: flex;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+img{
+  width: 100%;
+}
+
+a, a:link, a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+section{
+  margin-top: 5em;
+}
+/* =================================================================== */
+/* COLORS AND MARGINS/PADDINGS AND REUSABLE STUFF */
+/* =================================================================== */
+
+.transparent-grey{
+  color: rgba(45,53,76,.4);
+}
+
+.border-shadow-1{
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,.2); 
+}
+
+/* =================================================================== */
+/* HERO WITH NAVBAR  */
+/* =================================================================== */
+
+.hero {
+  background-image: url("../images/hero-background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom 15em center;
+  height: 100vh;
+  color: #FFF;
+  text-align: center;
+}
+
+.hero span{
+  color: #32c3ff;
+}
+
+.nav-btn{
+  padding: 10px 16px;
+  border-radius: 3px;
+  border: #FFF 1px solid;
+}
+
+h1{
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  letter-spacing: -2px;
+  font-size: 70px;
+  line-height: 1.2;
+  padding-bottom: 20px;
+}
+
+.hero p{
+  font-weight: 700;
+  display: inline-block;
+  padding: 30px 0;
+}
+
+.logos-affiliates img{
+  width: 24%;
+  filter: grayscale(100%);
+}
+
+nav ul {
+  display: inline-block;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 2em 1em;
+}
+
+.flag-icon{
+  width: 1.2em;
+}
+
+.hamburger {
+  color: #FFF;
+  display: none;
+}
+
+#hamburguesa{
+  width: 40px;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 2em;
+}
+
+.browse-courses-btn{
+  padding: 28px 140px;
+  background-color: #32c3ff;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 1.1em;
+  display: inline-block;
+}
+
+.sub-title-hero{
+  display: inline-block;
+  width: 50%;
+  font-size: 1.2em;
+}
+
+
+
+/* =================================================================== */
+/* SECTION 1  */
+/* =================================================================== */
+
+
+
+.section-1 aside{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-1 h3{
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  letter-spacing: -2px;
+  font-size: 70px;
+  margin-bottom: 0;
+}
+
+.section-1 p{
+  width: 70%;
+  display: inline-block;
+  font-weight: 500;
+
+}
+
+.section-1-right{
+  padding-top: 3em;
+  color: #f29025;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: "Roboto";
+}
+
+cite{
+  padding-top: 30px;
+  font-size: 13px;
+  color: black;
+}
+
+.section-1 h4{
+  font-weight: 700;
+}
+
+.quote-image{
+  width: 80px;
+}
+
+
+
+
+/* =================================================================== */
+/* SECTION DOS  */
+/* =================================================================== */
+
+.section-2{
+  margin-bottom: 6em;
+}
+
+.section-2 p{
+  color: rgba(45,53,76,.6);
+  font-size: .9em;
+}
+
+.section-2 img{
+  width: 3em;
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.section-2 h2{
+  font-family: "Roboto Mono";
+  font-size: 2.1em;
+  padding-bottom: 1.7em;
+}
+
+.article-container{
+  display: inline-block;
+  width: 70%;
+}
+
+
+/* =================================================================== */
+/* MEDIA QUERIIIIIs  */
+/* =================================================================== */
+@media all and (max-width: 992px) {
+
+    nav li {
+      padding: 2em 4px;
+    }
+    .section-1{
+      margin-top: 30em;
+    } 
+}
+
+@media all and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+
+
+}
+

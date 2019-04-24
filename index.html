@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ironhack Web Development Bootcamp & UX/UI Design Bootcamp</title>
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-grid.min.css">
+  
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:300,300i,400,500,700" rel="stylesheet">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+  <div class="container">
+    <main>
+      <header class="hero">
+        <header class="navigation">
+          <a href="#"><img src="images/logo-ironhack.svg"></a>
+          <nav>
+            <ul>
+              <li>Courses</li>
+              <li>Locations</li>
+              <li>Carreer Services</li>
+              <li>Alumni</li>
+              <li>Hire</li>
+              <li><img src="images/en-flag.jpg" class="flag-icon"></li>
+              <li><a href="#" class="nav-btn">Apply Now</a></li>
+            </ul>
+          </nav>
+          <!-- HAMBURGUESA QUE APARECE CUANDO DEBE. PERO NO CONSIGO MODELAR EL <IMG> SI NO QUE TENGO QUE PONERLO EN UN CONTENEDOR -->
+          <div class="hamburger">
+            <a href="#">Menu</a>
+            <img src="images/hamburger-menu.png" id="hamburguesa">
+          </div>
+
+        </header>
+        <h1>Preparing the next generation of <br>
+          <span >Web Developers</span></h1>
+        <div class="row">
+          <div class="col-12" >
+            <p class="sub-title-hero">Intensive courses in Web Development, UX/UI Design & Data Analytics</p>
+          </div>
+          <div class="col-12">
+            <a href="#" class="browse-courses-btn">Browse Courses</a>
+          </div>
+          <div class="col-12">
+            <p class="transparent-grey">Our students work at companies like:</p>
+          </div>
+          <div class="row logos-affiliates">
+            <!-- Por ejemplo, mirando a la web veo que son 8 logos que a md se rompen en dos grupos eso significa que
+                      tendre' que poner dos columnas que >md ocupan 6 y 6 (o sum<12) y a <md ocupan 12  -->
+            <div class="col-sm-12 col-lg-6">
+              <img src="images/logotipo-capgemini.png" alt="logotipo capgemini">
+              <img src="images/logotipo-google.png" alt="logotipo google">
+              <img src="images/logotipo-magic_leap.png" alt="logotipo magic_leap">
+              <img src="images/logotipo-mango.png" alt="logotipo mango">
+            </div>
+            <div class="col-sm-12 col-lg-6">
+              <img src="images/logotipo-orange.png" alt="logotipo orange">
+              <img src="images/logotipo-rocketinternet.png" alt="logotipo rocketinternet">
+              <img src="images/logotipo-twitter.png" alt="logotipo twitter">
+              <img src="images/logotipo-visa.png" alt="logotipo visa">
+            </div>
+          <!-- PS: EL RESPONSIVE FUNCIONA... PERO SOLO PORQUE LO HACE EN AUTOMATICO. FML. -->
+          </div>
+        </div>
+      </header>
+
+      <!-- SECTION 1 -->
+
+      <section class="section-1">
+        <aside >
+          <!-- A MEDIO IL DESCRIPTION DELL'IMMAGINE VA SOTTO, A SMALL COLONNINE4 VANNO UNA SOPRA LALTTRA -->
+          <div class="row">
+            <div class="col-md col-xl-3">
+              <h3>+2500</h3>
+              <p>Graduated Students</p>
+            </div>
+            <div class="col-md col-xl-3">
+              <h3>9</h3>
+              <p>Campuses worldwide</p>
+            </div>
+            <div class="col-md col-xl-3">
+              <h3>+600</h3>
+              <p>Partner Companies</p>
+            </div>
+            <div class="col-md col-xl-3">
+              <h3>+70</h3>
+              <p>Students Nationalities</p>
+            </div>
+          </div>
+        </aside>
+
+        <!-- FINE ASIDE -->
+        <div class="section-1-right" >
+          <div class="row">
+            <div class="col-12 col-md-9 col-xl-9">
+              <figure >
+                <img class="border-shadow-1" src="images/ironhack-family.jpg">
+              </figure>
+            </div>
+            
+            <div class="col-12 col-md-3 col-xl-3">
+              <div class="border-shadow-1">
+                <img src="images/quote.svg" class="quote-image">
+                <p>Ironhack is not only a bootcamp; it's a life-changing experience and a family that will always be there for you.
+                </p>
+                <cite>
+                  <h4>Alvaro Castillo</h4>
+                  <p>Web Development Miami '16</p>
+                </cite>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2 -->
+      <section class="section-2">
+        <h2>Why should you study at Ironhack?</h2>
+        <div class="row">
+          <div class="col-xl-6">
+            <article>
+              <img src="images/value-prop-1.svg">
+              <div class="article-container">
+              <header><h3>Transform Your Career</h3></header>
+              <p>Whether you need to get a job in tech or launch your own business, Ironhack will help you achieve your goals.</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="images/value-prop-2.svg">
+              <div class="article-container">
+              <header><h3>Access a Global Network</h3></header>
+              <p>Join a global network of +2500 graduates and professionals across our 9 campuses around the world. </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-xl-6">
+            <article>
+              <img src="images/value-prop-3.svg">
+              <div class="article-container">
+              <header><h3>Learn by Creating</h3></header>
+              <p>Learn by working on amazing projects using the tools and workflows you'll encounter in a real work environment.</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="images/value-prop-4.svg">
+              <div class="article-container">
+              <header><h3>Outcomes First</h3></header>
+              <p>Our graduates get hired in less than 3 months through our +600 international network of hiring partners.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+  </div>
+</body>
+</html>
